@@ -3,22 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-h3 {
-    text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #fdf2ffd1;
-    font-weight: 600;
-    font-size: 1.5rem; 
-}h3::after {
-    content: '';
-    position: absolute;
-    width: 49%; /* Largo de la línea*/
-    top: 567px;
-    right: 100px;
-    height: 1px; 
-    background-color: #A678B3; 
-    border-radius: 2px; 
-}
+
 
 
 /* main */
@@ -30,6 +15,8 @@ h3 {
 
 
 .me{
+    position: relative;
+    top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,4 +77,25 @@ h3 {
     }
 }
 
-/* about*/
+/* proyects*/
+
+.proyects{
+    position: relative;
+    top: 197px;
+}
+.title {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fdf2ffd1;
+    font-weight: 600;
+    font-size: 1.5rem; 
+}.title::after {
+    content: '';
+    position: absolute;
+    width: 42%; /* Largo de la línea*/
+    bottom: -10px;
+    right: 123px;
+    height: 1px; 
+    background-color: #A678B3; 
+    border-radius: 2px; 
+}
