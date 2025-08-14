@@ -81,7 +81,7 @@
 
 .proyects{
     position: relative;
-    top: 250px;
+    top: 235px;
 }
 .title {
     text-align: center;
@@ -93,7 +93,7 @@
     content: '';
     position: absolute;
     width: 42%; /* Largo de la línea*/
-    bottom: -10px;
+    bottom: 0px;
     right: 123px;
     height: 1px; 
     background-color: #A678B3; 
