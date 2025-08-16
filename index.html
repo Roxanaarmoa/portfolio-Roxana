@@ -15,7 +15,10 @@
 <body>
     <header></header>
     <main class="main">
-        <section class="me">
+        <div class="wrapper">
+
+
+            <section class="me">
                 <img class="photo" src="/img/FOTO2.jpg" alt="">
                 <h1>Hola, soy <b class="name">Roxana Armoa</b></h1>
                 <h2>Front-end Developer</h2>
@@ -25,32 +28,35 @@
                     <img class="email" src="/img/email.png" alt="">
                     <img src="/img/linkedin.png" alt="">
                 </div>
-            
-            <div class="arrow-down">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                <div class="arrow-down">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/>
                     <path d="M7.41 13.59 12 18.17l4.59-4.58L18 15l-6 6-6-6z"/>
-                </svg>
-            </div>
-        </section>
-        <section class="proyects">
-            <h3 class="title">P R O Y E C T O S</h3>
-            <article class="card">
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h2></h2>
-                    </div>
+                    </svg>
                 </div>
-                
-            </article>
-        </section>
+            </section>
+
+            <section class="proyects">
+                <h3 class="title">P R O Y E C T O S</h3>
+
+                <!--cards-->
+                <div class="card-container">
+                    <article class="card">
+                        <div class="card-img">
+                            <img src="/img/ciclova.png" alt="">
+                        </div>
+                    <div class="card-content">
+                        <h3>C I C L O V A</h3>
+                        <p><b>E-commerce Full-Stack:</b>
+                            Plataforma de comercio electrónico desarrollada con React + Vite (frontend) y Node.js (backend), conectada a una base de datos (firebase) para gestión de productos, usuarios y órdenes en tiempo real. Desplegada en Vercel, ofrece diseño responsive, rendimiento optimizado y arquitectura escalable.</p>
+                        <a href="https://ciclova-ecommerce.vercel.app/" target="_blank">ver</a>
+                    </div>
+                    </article>
+                </div>
+            </section>
 
 
-
-        <section class="about">
-        </section>
-        
+        </div>
     </main>
     <footer></footer>
 </body>
