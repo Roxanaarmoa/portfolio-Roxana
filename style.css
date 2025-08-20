@@ -88,19 +88,14 @@ section {
 /* proyects*/
 
 .title {
+    border-bottom: 1px solid #ffc857e0;
+    padding: 0.5rem;
+    width: 190px;
+    margin-inline: 53px;
     text-align: center;
     color: #fdf2ffd1;
     font-weight: 500;
     font-size: 1.5rem; 
-}.title::after {
-    content: '';
-    position: absolute;
-    width: 9%; /* Largo de la línea*/
-    bottom: 373px;
-    right: 865px;
-    height: 1px; 
-    background-color: #ffc857e0; 
-    border-radius: 2px; 
 }
 
 /* card */
@@ -122,12 +117,9 @@ section {
     display: flex;
     flex-direction: column;
     transition: 0.3s ease-in-out;
-}
-
-.project-card:hover {
+}.project-card:hover {
     transform: translateY(-5px);
 }
-
 .project-img {
     width: 100%;
     height: auto;
@@ -137,7 +129,6 @@ section {
 .project-content {
     padding: 20px;
 }
-
 .project-content .tag {
     background: #472946;
     color: #ffc857e0;
@@ -153,7 +144,6 @@ section {
     color: #fdf2ffd1;
     margin-bottom: 10px;
 }
-
 .project-content p {
     font-size: 0.9rem;
     line-height: 1.5;
@@ -166,7 +156,6 @@ section {
     padding-top: 12px;
     margin-bottom: 15px;
 }
-
 .project-info .info-row {
     display: flex;
     justify-content: space-between;
@@ -179,9 +168,7 @@ section {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-}
-
-.btn {
+}.btn {
     flex: 1;
     text-align: center;
     padding: 10px;
@@ -191,120 +178,19 @@ section {
     text-decoration: none;
     transition: 0.3s;
 }
-
 .btn.demo {
     background: #ffc857dc;
     color: #2f1f3f;
-}
-
-.btn.demo:hover {
+}.btn.demo:hover {
     background: #ffb347;
 }
-
 .btn.github {
     background: #241429;
     border: 1px solid #6e6071;
     color: #fdf2ffd1;
-}
-
-.btn.github:hover {
+}.btn.github:hover {
     background: #2f1f3f;
 }
-
-
-
-/* .card-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 75px;
-    padding: 2rem 1rem;
-}
-
-.card-container .card{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 360px;
-    height: 300px;
-    background-color: #2f1f3f;
-    border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
-    transition: 0.5s;
-}
-
-.card-container .card:hover{
-    height: 400px;
-}
-
-.card-container .card .card-img{
-    position: absolute;
-    top: 20px;
-    width: 240px;
-    height: 220px;
-    background: #333;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-.card-container .card:hover .card-img{
-    top: -100px;
-    scale:0.75 ;
-    box-shadow: 0 15px 45px rgba(0,0,0,0.15);
-}
-
-
-.card-container .card .card-img img{ /*optimiza img*
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.card-container .card .card-content{ /* optimiza contenido*
-    position: absolute;
-    top: 252px;
-    width: 100%;
-    padding: 0 30px;
-    height:30px ;
-    overflow: hidden;
-    text-align: center;
-    transition: 0.5s;
-}
-.card-container .card:hover .card-content{
-    top: 130px;
-    height: 250px;
-}
-
-.card-container .card .card-content h3{
-    font-size: 1.5em;
-    font-weight: 500;
-    color:#ffc857a1;
-}
-.card-container .card .card-content p{
-    font-size: 0.9rem;
-    color:#b2a3b5a6;
-    
-}
-.card-container .card .card-content a{
-    position: relative;
-    top: 15px;
-    display: inline-block;
-    padding: 12px 25px;
-    background: #ffc757dc;
-    color: #6e6071;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 8px;
-} */
 
 
 /* escritorio*/
