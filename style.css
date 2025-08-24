@@ -211,14 +211,17 @@ section {
     color: #fdf2ffd1;
     font-weight: 500;
     font-size: 1.5rem; 
+    text-decoration: none;
 }
 
 .info{
     display: flex;
+    text-decoration: none;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
 }.info p{
+    text-decoration: none;
     color: #b2a3b5a6;
 }.info a{
     color: #ffc857e0;
@@ -273,7 +276,7 @@ section {
     
     /*proyectos*/
     .title {
-        margin-inline: 80px;
+        margin-inline: 75px;
     }
     .buttons {
     flex-direction: column;
@@ -282,7 +285,7 @@ section {
     /* contacto*/
 
     .contact h2{
-        margin-inline: 80px;
+        margin-inline: 75px;
     }
 
 }
