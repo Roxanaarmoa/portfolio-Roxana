@@ -17,12 +17,11 @@
     <main class="main">
         <div class="wrapper">
 
-
             <section class="me">
                 <img class="photo" src="/img/FOTO2.jpg" alt="">
                 <h1>Hola, soy <b class="name">Roxana Armoa</b></h1>
                 <h2>Front-end Developer</h2>
-                <p>Desarrolladora Full Stack junior, con experiencia en Python, Node.js, React y JavaScript. Siempre aprendiendo nuevas tecnologías y mejorando mis habilidades.</p>
+                <p>Desarrolladora junior, aprendiendo nuevas tecnologías y mejorando mis habilidades.</p>
                 <div class="logos-container">
                     <img src="/img/github.png" alt="">
                     <img class="email" src="/img/email.png" alt="">
@@ -36,7 +35,7 @@
                 </a>
             </section>
 
-
+            <!-- projects-->
             <section id="sectionp"  class="proyects">
                 <h3 class="title">P R O Y E C T O S</h3>
 
@@ -67,14 +66,39 @@
 
             </section>
 
-
+            <!-- contact -->
             <section class="contact">
+                
+                <h2>C O N T A C T O</h2>
+                <div class="info">
+                    <a href="https://mail.google.com/mail/u/0/#all?compose=new" target="_blank"> roxanarmoa@gmail.com</a>
+                    <p>Buenos Aires, Argentina.</p>
+                </div>
 
+                <div class="logos-container">
+                    <img src="/img/github.png" alt="">
+                    <img class="email" src="/img/email.png" alt="">
+                    <img src="/img/linkedin.png" alt="">
+                </div>
+
+                <!-- form c/ Nodemailer-->
+                <form class="form" id="contactForm">
+                    <label for="email"><p>Email</p> </label>
+                    <input class="bar" type="text" name="email" id="email" required>
+
+                    <label class="mensaje" for="mensaje"><p>Mensaje</p></label>
+                    <textarea class="bar" name="message" id="message" cols="40" rows="3" required></textarea>
+                    
+                    <button class="button" type="submit" id="enviarBtn">ENVIAR</button>
+                </form>
+                
             </section>
 
 
         </div>
     </main>
-    <footer></footer>
+    <!-- scripts-->
+    <script type="module" src="form.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
