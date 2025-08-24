@@ -22,7 +22,7 @@ form.addEventListener('submit', async (e) => {
             }
 });
     //fetch envia o recibe datos, en este caso esta enviado al backendatos del email
-        const response = await fetch("render", {
+        const response = await fetch("https://portfoliobackend-roxana.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json", // Indicamos que enviamos JSON
