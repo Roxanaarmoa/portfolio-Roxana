@@ -355,4 +355,10 @@ section {
         margin-inline: 75px;
     }
 
+    input:focus, textarea:focus {
+    outline: none;
+    border-color: #ffc857;
+    box-shadow: 0 0 8px rgba(255,200,87,0.4);
+}
+
 }
