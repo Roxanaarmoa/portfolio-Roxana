@@ -68,9 +68,6 @@ section {
     object-fit: cover; /* recorta y mantiene proporción */
 }.email{
     width: 95px;
-}.github{
-    width: 32px;
-    height: 32px;
 }
 
 /*flecha*/
