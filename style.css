@@ -69,6 +69,12 @@ section {
 }.email{
     width: 95px;
 }
+.logos-container a:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}.logos-container a{
+    transition: 0.3s;
+}
 
 /*flecha*/
 .arrow-down {
@@ -264,6 +270,27 @@ section {
     color: #2f1f3f;
 }
 
+/*      SKILLS           */
+
+.tag{
+    background: #472946;
+    color: #ffc857e0;
+    font-size: 0.8rem;
+    padding: 6px 19px 2px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 15px;
+}.tag:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}.tag{
+    transition: 0.3s;
+}
+
+.skills-container{
+    text-align: center;
+    padding: 50px;
+}
 
 /*          escritorio           */
 
@@ -295,7 +322,7 @@ section {
     /* PROJECTS */
 
     .title{
-        width: 253px;
+        width: 281px;
         margin-inline: 290px;
         font-size: 2rem;
     }
