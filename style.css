@@ -70,7 +70,7 @@ section {
     width: 95px;
 }
 .logos-container a:hover{
-    scale: 1.1;
+    scale: 1.05;
     transition: 0.2s;
 }.logos-container a{
     transition: 0.3s;
@@ -281,7 +281,7 @@ section {
     display: inline-block;
     margin-bottom: 15px;
 }.tag:hover{
-    scale: 1.1;
+    scale: 1.05;
     transition: 0.2s;
 }.tag{
     transition: 0.3s;
@@ -298,7 +298,7 @@ section {
 
     /*         ME          */
     .photo{
-        width: 350px;
+        width: 320px;
     }
     .me h1{
         font-size: 3.2rem;
