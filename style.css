@@ -50,7 +50,7 @@ section {
 .name{
     color: #8d3f82;
 }.photo{
-    width: 170px;
+    width: 160px;
     border-radius: 200px;
     border-style: solid;
     border-width: 7px;
@@ -298,9 +298,10 @@ section {
 
     /*         ME          */
     .photo{
-        width: 320px;
+        width: 240px;
     }
     .me h1{
+        padding-top: 53px;
         font-size: 3.2rem;
     }.me h2{
         font-size: 2.4rem;
@@ -317,6 +318,7 @@ section {
 
     .arrow-down{
         margin-top: 3.5rem;
+        padding-top: 100px;
     }
 
     /* PROJECTS */
@@ -340,7 +342,7 @@ section {
     }
     .card-container {
     gap: 100px 50px; 
-    padding: 100px 50px;
+    
     }
 
     /* ABOUT */
