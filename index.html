@@ -22,16 +22,16 @@
         <div class="wrapper">
 
             <section class="me">
-                <img class="photo" src="/img/FOTO2.webp" alt="">
+                <img class="photo" src="public/img/FOTO2.webp" alt="">
                 <h1 class="animate__animated animate__fadeInUp">Hola, soy <b class="name">Roxana Armoa</b></h1>
                 <h2 class="animate__animated animate__backInUp">Full-Stack Developer</h2>
                 <p class="animate__animated animate__backInUp">Desarrolladora, aprendiendo nuevas tecnologías y mejorando mis habilidades.</p>
                 <div class="logos-container">
-                    <a href="https://github.com/Roxanaarmoa?tab=repositories" target="_blank"><img src="/img/github.webp" alt=""></a>
+                    <a href="https://github.com/Roxanaarmoa?tab=repositories" target="_blank"><img src="public/img/github.webp" alt=""></a>
 
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img class="email" src="/img/email.webp" alt="" href=""></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img class="email" src="public/img/email.webp" alt="" href=""></a>
 
-                    <a href="https://www.linkedin.com/in/roxana-armoa-713a7a24b/" target="_blank" ><img src="/img/linkedin.webp" alt="" href=""></a>
+                    <a href="https://www.linkedin.com/in/roxana-armoa-713a7a24b/" target="_blank" ><img src="public/img/linkedin.webp" alt="" href=""></a>
                 </div>
 
                 <div class="box-btn">
@@ -49,8 +49,8 @@
             
 
             <!-- skills -->
-            <section>
-                <h3 class="title"> H A B I L I D A D E S</h3>
+            <section class="scroll-section reveal">
+                <h3 class="title reveal"> H A B I L I D A D E S</h3>
 
                 <div class="skills-container">
                     <span class="tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
@@ -79,13 +79,13 @@
             </section>
 
             <!-- projects-->
-            <section id="sectionp"  class="proyects">
+            <section id="sectionp"  class="proyects reveal">
                 <h3 class="title">P R O Y E C T O S</h3>
 
                 <!--cards-->
-                <div class="card-container">
+                <div class="card-container reveal-left">
                     <div class="project-card">
-                        <img src="/img/ciclova.png" alt="Project Image" class="project-img">
+                        <img src="public/img/ciclova.png" alt="Project Image" class="project-img">
                     <div class="project-content">
                         <span class="tag">FULLSTACK</span>
                         <h3>CICLOVA</h3>
@@ -114,9 +114,9 @@
                     </div>
                 </div>
 
-                <div class="card-container">
+                <div class="card-container reveal-left">
                     <div class="project-card">
-                        <img src="/img/mr.python.png" alt="Project Image" class="project-img">
+                        <img src="public/img/mr.python.png" alt="Project Image" class="project-img">
                     <div class="project-content">
                         <span class="tag">PYTHON</span>
                         <h3>MR. PYTHON - Asistente Educativo IA</h3>
@@ -143,11 +143,13 @@
                     </div>
                 </div>
 
+                
+
             </section>
             
 
             <!-- contact -->
-            <section class="contact">
+            <section class="contact reveal">
                 
                 <h2>C O N T A C T O</h2>
                 <div class="info">
@@ -156,11 +158,11 @@
                 </div>
 
                 <div class="logos-container">
-                    <a href="https://github.com/Roxanaarmoa?tab=repositories" target="_blank"><img src="/img/github.webp" alt=""></a>
+                    <a href="https://github.com/Roxanaarmoa?tab=repositories" target="_blank"><img src="public/img/github.webp" alt=""></a>
 
-                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img class="email" src="/img/email.webp" alt="" href=""></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img class="email" src="public/img/email.webp" alt="" href=""></a>
 
-                    <a href="https://www.linkedin.com/in/roxana-armoa-713a7a24b/" target="_blank" ><img src="/img/linkedin.webp" alt="" href=""></a>
+                    <a href="https://www.linkedin.com/in/roxana-armoa-713a7a24b/" target="_blank" ><img src="public/img/linkedin.webp" alt="" href=""></a>
                 </div>
 
                 <!-- form c/ Nodemailer-->
@@ -180,7 +182,8 @@
         </div>
     </main>
     <!-- scripts-->
-    <script type="module" src="form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="form.js"></script>
+    <script src="scroll.js" defer></script>
 </body>
 </html>

@@ -1,6 +1,21 @@
 {
+  "name": "portfolio-roxana",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "animate.css": "^4.1.1",
     "node": "^24.6.0"
-  }
+  },
+  "main": "form.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
