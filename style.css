@@ -443,6 +443,7 @@ section {
     
     /*proyectos*/
     .title {
+        width: 220px;
         margin-inline: 72px;
     }
     .buttons {
